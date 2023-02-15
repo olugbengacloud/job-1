@@ -29,6 +29,10 @@ jobs:
         run: npm run lint
       - name: Test Code
         run: npm run test
+      - name: Build code
+        run: npm run build
+      - name: Deploy 
+        run: echo "Deploying...
   Deploy:
     runs-on: ubuntu-latest
     steps:
