@@ -1,6 +1,6 @@
 name: Lint, Test, Deploy Job
 on: push
-job:
+jobs:
   Test:
     runs-on: ubuntu-latest
     steps:
