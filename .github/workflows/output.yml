@@ -1,0 +1,8 @@
+name: Output
+on: issues_opened
+job:
+  output:
+    runs-on: ubuntu-latest
+    step:
+      - name: Get output
+      - run:  echo "${{ ($toJSONgithub)}}"
