@@ -1,4 +1,4 @@
-name: Lint, Test, Deploy Job
+name: Job 2
 on: push
 jobs:
   Lint:
